@@ -1,7 +1,7 @@
 {
-  "name": "redux-toolkit",
-  "version": "0.1.0",
-  "private": true,
+  "name": "datagile-counter",
+  "version": "1.0.0",
+  "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "1.8.3",
     "axios": "0.27.2",
