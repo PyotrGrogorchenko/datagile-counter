@@ -4,10 +4,10 @@
 
 > node 16.x
 
-### Разработка
-
 ```bash
 npm ci
 npm run dev
 ```
 Приложение запустится на [http://localhost:4000](http://localhost:4000)
+
+[Сылка на npm-пакет](https://www.npmjs.com/package/datagile-counter)
