@@ -6,7 +6,7 @@ module.exports = {
   entry: path.resolve(__dirname, '..', './src/index.tsx'),
   context: path.resolve(__dirname, '..', './src/'),
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js', ".css", ".scss"],
     plugins: [
       new TsconfigPathsPlugin(
         {
@@ -27,7 +27,16 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: [
+          "style-loader",
+          {
+            loader: "css-loader",
+            options: {
+              importLoaders: 1,
+              modules: true,
+            },
+          },
+        ]
       },
       {
         test: /\.(?:ico|gif|png|jpg|jpeg)$/i,

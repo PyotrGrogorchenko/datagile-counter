@@ -21,6 +21,6 @@
     "skipLibCheck": true,
     "paths": {
       "@src/*": ["src/*"]
-    }    
+    }
   }
 }
