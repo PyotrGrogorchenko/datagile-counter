@@ -1,19 +1,13 @@
-import { Button } from '@src/components/UI/Button'
-import { Modal } from '@src/components/UI/Modal/Modal'
-import { FC, useCallback } from 'react'
+import { FC } from 'react'
+import { DialogAddColumn } from './DialogAddColumn'
 import { useTable } from './TableProvider'
 
-export const Table: FC = () => {
+export const TablePage: FC = () => {
   const { selectColumns } = useTable()
-
-  const addColumnClick = useCallback(() => {
-    console.log('addColumnClick')
-  }, [])
 
   return (
     <>
-      <Modal></Modal>
-      <Button onClick={addColumnClick}>Add column</Button>
+      <DialogAddColumn/>
       <table border={1} >
         <thead>
           <tr>

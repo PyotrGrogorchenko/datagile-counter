@@ -1,13 +1,10 @@
 import { ErrorBoundary } from './components/ErrorBoundary'
-import { Table } from '@src/pages/table/Table'
-import { TableProvider } from '@src/pages/table/TableProvider'
+import { Table } from '@src/pages/Table'
 
 export const App = () => {
   return (
     <ErrorBoundary>
-      <TableProvider>
-        <Table/>
-      </TableProvider>
+      <Table/>
     </ErrorBoundary>
   )
 }

@@ -1,5 +1,5 @@
 import { createContext, FC, ReactNode, useContext, useReducer } from 'react'
-import { Column, getInitialState, reducer, addColumn } from './reducer'
+import { Column, getInitialState, reducer, addColumn } from './tableReducer'
 
 // import { setEvents, getInitialState, State, setDay } from './reducer';
 // import { reducer, setCondition } from './reducer';
