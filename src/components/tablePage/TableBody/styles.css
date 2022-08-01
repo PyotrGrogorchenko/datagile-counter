@@ -1,0 +1,15 @@
+.tr {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--tertiary-color);
+}
+
+.tr:nth-child(2n+1) {
+  background-color: var(--primary-bright-color);
+}
+
+.td {
+  outline: none;
+  text-align: center;
+  padding: .5rem;
+}

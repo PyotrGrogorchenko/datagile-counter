@@ -1,0 +1,15 @@
+body {
+  /* vars */
+  --primary-color: #212429;
+  --primary-bright-color: #2124290e;
+  --tertiary-color: #2124293a;
+  --secondary-color: #ffffff;
+  --action-color: #56bfe3;
+
+  background-color: var(--secondary-color);
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 1rem;
+
+  margin: 0;
+  padding: 0;
+}

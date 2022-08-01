@@ -1,0 +1,9 @@
+.thead {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.th {
+  min-width: 5rem;
+  padding: .2rem;
+}
